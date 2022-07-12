@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "test-android-kotlin"
 include ':app'
+include ':features:search'
+include ':features:detail'

@@ -1,3 +1,150 @@
-<resources>
-    <string name="app_name">test-android-kotlin</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- A -->
+    <string name="activity_questions_form_write_your_question" tools:ignore="ResourceName">Write your question...</string>
+    <string name="activity_questions_form_last_made" tools:ignore="ResourceName">Latest made</string>
+    <string name="activity_questions_form_see_all_questions" tools:ignore="ResourceName">See all questions</string>
+    <string name="activity_simple_feature_in_millions" tools:ignore="ResourceName">en millones de productos desde $3.500</string>
+    <string name="activity_simple_feature_free_shipping" tools:ignore="ResourceName">Envio gratis</string>
+    <string name="activity_simple_feature_search_in_mercado_libre" tools:ignore="ResourceName">Buscar en Mercado Libre</string>
+    <string name="app_mb_and_esp_w3_elvis_appSend">send</string>
+    <string name="app_mb_and_esp_w3_elvis_appCancel">cancel</string>
+    <string name="app_mb_and_esp_w3_elvis_appAsk_query">Ask Query</string>
+    <!-- B -->
+    <!-- C -->
+    <!-- D -->
+    <!-- E -->
+    <!-- F -->
+    <!-- G -->
+    <!-- H -->
+    <string name="home_tv_tittle" tools:ignore="ResourceName">TextView</string>
+    <string name="home_tv_msg_welcome" tools:ignore="ResourceName">Enviar a Nombre de Usuario - Dirección</string>
+    <string name="home_tv_car" tools:ignore="ResourceName">Automóviles</string>
+    <string name="home_tv_motorcycle" tools:ignore="ResourceName">Motos</string>
+    <string name="home_tv_truck" tools:ignore="ResourceName">Camiones</string>
+    <string name="home_tv_property" tools:ignore="ResourceName">Inmuebles</string>
+    <string name="home_tv_more" tools:ignore="ResourceName">Ver más</string>
+    <string name="home_tv_title_recycler" tools:ignore="ResourceName">Visto recientemente</string>
+    <!-- I -->
+    <string name="input_tittle" tools:ignore="ResourceName">Volkswagen Fox 1.6 Connect</string>
+    <string name="input_verification" tools:ignore="ResourceName">Vendedor con identidad verificada</string>
+    <string name="input_cash" tools:ignore="ResourceName">$ 2.200.200</string>
+    <string name="input_favorite" tools:ignore="ResourceName">Agregar a favoritos</string>
+    <string name="input_quit_favorite" tools:ignore="ResourceName">Quitar de favoritos</string>
+    <string name="input_shared" tools:ignore="ResourceName">Compartir</string>
+    <string name="input_description" tools:ignore="ResourceName">Descripción</string>
+    <string name="input_description_two" tools:ignore="ResourceName">Lepic - CONCESIONARIO OFICIAL RENAULT – CASA CENTRAL \n\n¡¡¡¡¡LEER CON ATENCION!!!!! \nPRECIO PUBLICADO NO INCLUYE GASTOS \n\nUNIDAD DISPONIBLE EN CONCESIONARIO PARA ENTREGA \nINMEDIATA \nSTOCK FÍSICO (Nro de Chasis y Motor) \n--------------------------------------------------------------------------------- \n(Precio publicado no incluye gastos) \nNUEVAS OPORTUNIDADES 2021 \n(Deposito – Transferencia bancaria - Cheque Común) \n--------------------------------------------------------------------------------- \nENTREGA INMEDIATA - NO ES PLAN DE AHORRO \nUNIDAD DISPONIBLE EN CONCESIONARIO PARA ENTREGA INMEDIATA</string>
+    <string name="input_tittle_simulation" tools:ignore="ResourceName">Simula tu credito online</string>
+    <string name="input_simulation_description" tools:ignore="ResourceName">Completa los datos de tu vehiculo.\n\nIngresa tu pago inicial y la cantidad de cuotas que prefieras.\n\nObten una respuesta inmediata para saber si tu credito esta aprobado.</string>
+    <string name="input_simulation_description_two" tools:ignore="ResourceName">Trabajamos con</string>
+    <string name="input_tittle_store" tools:ignore="ResourceName">Informacion de la tienda</string>
+    <string name="input_name_store" tools:ignore="ResourceName">Renault Diaz Central2</string>
+    <string name="input_time_seller" tools:ignore="ResourceName">Tiempo vendiendo en Mercado libre</string>
+    <string name="input_time_seller_two" tools:ignore="ResourceName">8 años</string>
+    <string name="input_time_attention" tools:ignore="ResourceName">Horario de Atencion</string>
+    <string name="input_time_attention_two" tools:ignore="ResourceName">9 a 19</string>
+    <string name="input_location_vehicle" tools:ignore="ResourceName">Ubicacion del vehiculo</string>
+    <string name="input_location_vehicle_two" tools:ignore="ResourceName">Centro - Cordoba - Cordoba </string>
+    <string name="input_text_booking" tools:ignore="ResourceName">Pagas $ 50.000 para reservar el vehiculo \nPoder hacer antes o despues de verlo</string>
+    <string name="input_text_booking_two" tools:ignore="ResourceName">Acordas el resto con el vendedor \nCoordinas las condiciones del pago restante y la fecha \nde entrega del vehiculo</string>
+    <string name="input_check" tools:ignore="ResourceName">Si acepta mercadopago</string>
+    <string name="input_tittle_booking" tools:ignore="ResourceName">Reservalo online</string>
+    <string name="input_points" tools:ignore="ResourceName">Sumas 500 Puntos con tu reserva.</string>
+    <string name="input_tittle_questions" tools:ignore="ResourceName">Preguntale al vendedor</string>
+    <string name="input_description_booking" tools:ignore="ResourceName">Tu reserva esta protegida con Mercado Pago.\nSi te arrepientes o tienes algun problema, te devolvemos tu dinero.</string>
+    <!-- J -->
+    <!-- K -->
+    <!-- L -->
+    <string name="label_button_booking" tools:ignore="ResourceName">Reservar</string>
+    <string name="label_tittle_questions" tools:ignore="ResourceName">Preguntale al vendedor</string>
+    <string name="label_hint_questions" tools:ignore="ResourceName">Escribe tu pregunta</string>
+    <string name="label_go_to_meli" tools:ignore="ResourceName">Ir a MELI</string>
+    <string name="label_simulation_credit" tools:ignore="ResourceName">Simular credito</string>
+    <string name="label_button_call_seller" tools:ignore="ResourceName">Llamar</string>
+    <!-- M -->
+    <string name="motos_layout_image_contentDescription" tools:ignore="ResourceName">image</string>
+    <string name="motos_list_layout_list_size" tools:ignore="ResourceName">%s resultados</string>
+    <string name="motos_list_layout_arrives_today" tools:ignore="ResourceName">Llegan hoy</string>
+    <string name="motos_list_layout_filter" tools:ignore="ResourceName">Filtro</string>
+    <string name="motos_list_layout_error_loading_data" tools:ignore="ResourceName">Ocurrio un error al cargar los datos</string>
+    <string name="motos_activity_error_deleting_product" tools:ignore="ResourceName">Error al borrar un producto</string>
+    <string name="motos_activity_error_adding_product" tools:ignore="ResourceName">Error al añadir un producto</string>
+    <!-- N -->
+    <string name="no_acepta_mercadopago" tools:ignore="ResourceName">No acepta MercadoPago</string>
+    <!-- O -->
+    <!-- P -->
+    <string name="product_activity_empty_question" tools:ignore="ResourceName">Debes completar la pregunta antes de confirmar</string>
+    <string name="product_activity_email_in_question" tools:ignore="ResourceName">No se pueden ingresar emails</string>
+    <string name="product_activity_phone_number_in_question" tools:ignore="ResourceName">No puedes ingresar numeros de telefono</string>
+    <string name="product_layout_image_contentDescription" tools:ignore="ResourceName">image</string>
+    <string name="product_layout_ask" tools:ignore="ResourceName">Preguntar</string>
+    <string name="product_layout_protected_purchase" tools:ignore="ResourceName">Compra protegida, recibe el producto que esperabas o te devolvemos tu dinero.</string>
+    <string name="product_layout_add_to_favorites" tools:ignore="ResourceName">Agregar a favoritos</string>
+    <string name="product_layout_share" tools:ignore="ResourceName">Compartir</string>
+    <string name="product_layout_desc" tools:ignore="ResourceName">Descripcion</string>
+    <string name="product_layout_simulate_credit" tools:ignore="ResourceName">Simula tu credito online</string>
+    <string name="product_layout_new_label" tools:ignore="ResourceName">Nuevo</string>
+    <string name="product_layout_complete_the_data_of_your_vehicle" tools:ignore="ResourceName">. Completa los datos de tu vheiculo.</string>
+    <string name="product_layout_enter_your_initial_payment" tools:ignore="ResourceName">. Enter your initial payment and the number of installments\n you prefer.</string>
+    <string name="product_layout_get_inmediate_response" tools:ignore="ResourceName">. Get an immediate response to find out if your credit\n is approved.</string>
+    <string name="product_layout_we_work_with" tools:ignore="ResourceName">Trabajamos con </string>
+    <string name="product_layout_simulate_credits" tools:ignore="ResourceName">Simular credito</string>
+    <string name="product_layout_store_information" tools:ignore="ResourceName">Informacion de la tienda</string>
+    <string name="product_layout_time_selling" tools:ignore="ResourceName">Tiempo vendiendo en Mercado Libre</string>
+    <string name="product_layout_eight_years" tools:ignore="ResourceName">8 años</string>
+    <string name="product_layout_business_hours" tools:ignore="ResourceName">Horario de atencion</string>
+    <string name="product_layout_nine_to_nineteen" tools:ignore="ResourceName">9 a 19</string>
+    <string name="product_layout_vehicle_location" tools:ignore="ResourceName">Ubicación del vehículo</string>
+    <string name="product_layout_call" tools:ignore="ResourceName">Llamar</string>
+    <string name="product_layout_book_it_online" tools:ignore="ResourceName">Reservalo online</string>
+    <string name="product_layout_book" tools:ignore="ResourceName">Reservar</string>
+    <string name="product_layout_pay_to_reserve" tools:ignore="ResourceName">Pagas $ 50.000 para reservar el vehículo</string>
+    <string name="product_layout_before_or_after_watching" tools:ignore="ResourceName">Podes hacer antes o despues de verlo</string>
+    <string name="product_layout_agree_with_seller" tools:ignore="ResourceName">Acordas el resto con el vendedor</string>
+    <string name="product_layout_coordinate_the_condition" tools:ignore="ResourceName">Coordinas las condiciones del pago restante y la fecha de entrega del vehiculo</string>
+    <string name="product_layout_reservation_is_protected" tools:ignore="ResourceName">Tu reserva esta protegida con Mercado Pago.</string>
+    <string name="product_layout_regret" tools:ignore="ResourceName">Si te arrepentis o tenes algun problema, te devolvemos tu dinero</string>
+    <string name="product_layout_add_500_points" tools:ignore="ResourceName">Sumas 500 Puntos con tu reserva.</string>
+    <string name="product_list_layout_error_loading_data" tools:ignore="ResourceName">An error occurred while loading data</string>
+    <string name="product_list_layout_filter" tools:ignore="ResourceName">Filtros</string>
+    <string name="product_list_layout_arrives_today" tools:ignore="ResourceName">Llega hoy</string>
+    <string name="product_list_layout_list_size" tools:ignore="ResourceName">%s results</string>
+    <string name="product_activity_quit_from_favorites" tools:ignore="ResourceName">Quit from Favorites</string>
+    <string name="product_activity_error_deleting_product" tools:ignore="ResourceName">Error deleting product</string>
+    <string name="product_activity_error_adding_product" tools:ignore="ResourceName">Error adding product</string>
+    <string name="property_activity_error_opening_link" tools:ignore="ResourceName">Error opening link</string>
+    <string name="property_activity_available_stock" tools:ignore="ResourceName">Stock disponible</string>
+    <string name="property_activity_quantity" tools:ignore="ResourceName">Cantidad: </string>
+    <string name="property_activity_mercadoLider" tools:ignore="ResourceName">MercadoLider Platinum</string>
+    <string name="property_activity_one_of_the_best_sites" tools:ignore="ResourceName">Es uno de los mejores del sitio!</string>
+    <string name="property_activity_sales_60_days" tools:ignore="ResourceName">Ventas en los \nultimos 120 dias</string>
+    <string name="property_activity_location" tools:ignore="ResourceName">Ubicación</string>
+    <string name="property_activity_give_good_attention" tools:ignore="ResourceName">Brinda buena \natencion</string>
+    <string name="property_activity_deliver_on_time" tools:ignore="ResourceName">Entrega sus \nproductos a tiempo</string>
+    <string name="property_activity_seller_info" tools:ignore="ResourceName">Informacion sobre el vendedor</string>
+    <string name="product_activity_vendidos" tools:ignore="ResourceName"> vendidos</string>
+    <!-- Q -->
+    <string name="question_form_activity_thanks_for_your_question" tools:ignore="ResourceName">Gracias por su pregunta</string>
+    <!-- R -->
+    <!-- S -->
+    <string name="si_acepta_mercadopago" tools:ignore="ResourceName">Si acepta MercadoPago</string>
+    <string name="app_name">ML</string>
+    <string name="title_activity_product_list">ProductListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- T -->
+    <!-- U -->
+    <!-- V -->
+    <!-- W -->
+    <!-- X -->
+    <!-- Y -->
+    <!-- Z -->
+
 </resources>

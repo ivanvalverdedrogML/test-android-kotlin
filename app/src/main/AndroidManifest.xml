@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.test_android_kotlin">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Testandroidkotlin">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.activity.ProductListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_product_list"
+            android:theme="@style/Theme.Testandroidkotlin.NoActionBar" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Testandroidkotlin.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -6,5 +6,5 @@ import com.meli.android.search.domain.model.SearchItem
  * Created by Anibal Cortez on 12-07-22.
  */
 interface SearchRepository {
-    fun getProductsByCategory(categoryId : String) : List<SearchItem>
+   suspend fun getProductsByCategory(categoryId : String) : List<SearchItem>
 }

@@ -1,0 +1,31 @@
+ext.deps = [:]
+
+def versions = [:]
+versions.java = JavaVersion.VERSION_1_8
+versions.gradle = "7.4.0"
+versions.kotlin = "1.6.10"
+
+versions.compile_sdk = 32
+versions.min_sdk = 23
+versions.target_sdk = 32
+
+versions.core_ktx = "1.8.0"
+versions.appcompat = "1.4.2"
+versions.material = "1.6.1"
+
+versions.coroutines = "1.6.3"
+
+versions.retrofit = "2.9.0"
+ext.versions = versions
+
+def deps = [:]
+deps.kotlin_core_ktx = "androidx.core:core-ktx:$versions.core_ktx"
+deps.app_compat = "androidx.appcompat:appcompat:$versions.appcompat"
+deps.material = "com.google.android.material:material:$versions.material"
+
+deps.coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+
+deps.retrofit = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+deps.gson_convertor = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+
+ext.deps = deps

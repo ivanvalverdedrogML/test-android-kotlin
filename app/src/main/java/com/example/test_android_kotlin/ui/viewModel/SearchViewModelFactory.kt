@@ -6,8 +6,9 @@ import com.example.test_android_kotlin.data.repository.products.datasource.Produ
 import com.example.test_android_kotlin.data.repository.products.datasource.ProductRemoteDataSource
 import com.example.test_android_kotlin.domain.repository.product.ProductRepository
 
+@Suppress("UNCHECKED_CAST")
 class SearchViewModelFactory : ViewModelProvider.Factory {
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
         val repository = ProductRepository(
             productDataSource = ProductDataSource(
                 ProductRemoteDataSource()

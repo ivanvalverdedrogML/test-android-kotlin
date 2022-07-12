@@ -9,5 +9,5 @@ import retrofit2.http.Query
  */
 interface SearchApi {
     @GET("items")
-    fun getProductsByCategory(@Query("ids") categoryId: String): List<RemoteSearchItem>
+    suspend fun getProductsByCategory(@Query("ids") categoryId: String): List<RemoteSearchItem>
 }

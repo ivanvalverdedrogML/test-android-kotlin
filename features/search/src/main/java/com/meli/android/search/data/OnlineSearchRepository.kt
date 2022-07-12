@@ -12,7 +12,7 @@ class OnlineSearchRepository(
     private val remoteDatasource: RemoteDataSource
 ) : SearchRepository {
 
-    override fun getProductsByCategory(categoryId: String): List<SearchItem> =
+    override suspend fun getProductsByCategory(categoryId: String): List<SearchItem> =
         remoteDatasource.getProductByCategory(categoryId)
             .map { remoteSearchItem ->
                 remoteSearchItem.asDomain()
